@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-    res.send("Hello, AWS Elastic Beanstalk-CICDWELCOM!");
+    res.send("Hello, AWS Elastic Beanstalk!");
 });
 
 app.listen(PORT, () => {
